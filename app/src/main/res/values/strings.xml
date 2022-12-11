@@ -26,6 +26,25 @@
     <string name="find_locations">Buscar restaurantes</string>
     <string name="load_table_code">Posicione sobre o código na mesa</string>
     <string name="map">Mapa</string>
+    <string name="table_menu">MENU DA MESA</string>
+    <string name="select_necessary_option">Selecione a opção que desejar</string>
+    <string name="new_order">NOVO PEDIDO</string>
+    <string name="my_orders">MEUS PEDIDOS</string>
+    <string name="attendance">ATENDIMENTO</string>
+    <string name="profile">PERFIL</string>
+    <string name="categories">CATEGORIAS</string>
+    <string name="select_order_category">Seleciona a categoria do pedido</string>
+    <string name="starter">ENTRADAS</string>
+    <string name="plates">PRATOS</string>
+    <string name="pizza">PIZZAS</string>
+    <string name="sandwich">SANDUICHES</string>
+    <string name="dessert">SOBREMESAS</string>
+    <string name="drink">BEBIDAS</string>
+    <string name="order_items">Itens do pedido</string>
+    <string name="itens">Itens: R$ 0,00</string>
+    <string name="discounts">Descontos: R$ 0,00</string>
+    <string name="total_order">Total do pedido: R$ 0,00</string>
+    <string name="confirm_order">Confirmar pedido</string>
 
 
     <string name="login_fragment_title">Informações de acesso</string>

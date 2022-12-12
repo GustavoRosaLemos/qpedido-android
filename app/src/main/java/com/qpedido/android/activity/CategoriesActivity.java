@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import com.qpedido.android.R;
 
-public class Categories extends AppCompatActivity {
+public class CategoriesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,13 @@ public class Categories extends AppCompatActivity {
     }
 
     public void onClickOrderConfirmation(View view) {
-        Intent intent = new Intent(this, OrderConfirmation.class);
+        Intent intent = new Intent(this, OrderConfirmationActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+    }
+
+    public void onClickStarter(View view) {
+        Intent intent = new Intent(this, ItemsActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }

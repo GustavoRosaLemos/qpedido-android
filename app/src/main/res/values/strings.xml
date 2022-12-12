@@ -45,6 +45,12 @@
     <string name="discounts">Descontos: R$ 0,00</string>
     <string name="total_order">Total do pedido: R$ 0,00</string>
     <string name="confirm_order">Confirmar pedido</string>
+    <string name="items">ITENS</string>
+    <string name="select_order_items">Escolha os itens do pedido</string>
+    <string name="item_name">Nome do Item</string>
+    <string name="item_description">Descrição</string>
+    <string name="item_times_ordered">0 Pedidos</string>
+    <string name="item_price">R$ 0,00</string>
 
 
     <string name="login_fragment_title">Informações de acesso</string>

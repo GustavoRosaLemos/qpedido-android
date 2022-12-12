@@ -88,7 +88,8 @@
                     android:background="@drawable/radius_blue"
                     android:padding="10sp"
                     android:layout_marginStart="20sp" android:layout_marginLeft="20sp" android:layout_marginTop="5sp"
-                    android:layout_marginBottom="5sp" android:layout_marginRight="5sp" android:layout_marginEnd="5sp">
+                    android:layout_marginBottom="5sp" android:layout_marginRight="5sp" android:layout_marginEnd="5sp"
+                    android:onClick="onClickAttendance">
                 <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" app:srcCompat="@drawable/attendance"

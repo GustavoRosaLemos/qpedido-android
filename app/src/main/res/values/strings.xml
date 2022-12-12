@@ -51,6 +51,10 @@
     <string name="item_description">Descrição</string>
     <string name="item_times_ordered">0 Pedidos</string>
     <string name="item_price">R$ 0,00</string>
+    <string name="attendance_title">Atendimento</string>
+    <string name="request_attendance">Solicitar atendimento</string>
+    <string name="category">Categoria</string>
+    <string name="priority">Prioridade</string>
 
 
     <string name="login_fragment_title">Informações de acesso</string>

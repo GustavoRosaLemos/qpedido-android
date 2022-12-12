@@ -13,4 +13,15 @@ public abstract class Constant {
     public final static Item[] ITEMS = {
             new Item("", "", 10, 30),
     };
+
+    public final static String[] ATTENDANCE_CATEGORIES = {
+            "Garçom",
+            "Gerente"
+    };
+
+    public final static String[] ATTENDANCE_PRIORITY = {
+            "Baixa",
+            "Média",
+            "Alta"
+    };
 }

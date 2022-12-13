@@ -1,6 +1,7 @@
 package com.qpedido.android.activity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,6 +16,7 @@ public class CategoriesActivity extends AppCompatActivity {
     }
 
     public void onClickReturn(View view) {
+        cleanCart();
         finish();
     }
 
@@ -50,6 +52,15 @@ public class CategoriesActivity extends AppCompatActivity {
         intent.putExtra("category", "sandwich");
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
+    }
+
+    public void cleanCart() {
+        SharedPreferences sharedPreferences = getSharedPreferences("session", 0);
+        if (sharedPreferences.contains("user_cart")) {
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.remove("user_cart");
+            editor.apply();
+        }
     }
 
     public void onClickDessert(View view) {

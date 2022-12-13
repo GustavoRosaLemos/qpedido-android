@@ -75,6 +75,9 @@
     <string name="account_attendance_requested">Atendimentos solicitados:</string>
     <string name="account_checked">Conta verificada:</string>
     <string name="save">SALVAR</string>
+    <string name="error_add_item_cart">Erro ao adicionar item ao carrinho, tente novamente mais tarde!</string>
+    <string name="error_clean_cart">Erro ao limpar carrinho!</string>
+    <string name="error_load_cart_resume">Erro ao carregar o carrinho!</string>
 
 
     <string name="login_fragment_title">Informações de acesso</string>

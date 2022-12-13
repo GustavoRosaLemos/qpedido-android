@@ -55,6 +55,26 @@
     <string name="request_attendance">Solicitar atendimento</string>
     <string name="category">Categoria</string>
     <string name="priority">Prioridade</string>
+    <string name="attendance_requested">Atendimento solicitado</string>
+    <string name="attendance_requested_successfully">Atendimento solicitado com sucesso!</string>
+    <string name="attendance_requested_incoming">Um atendente já está a caminho da sua mesa.</string>
+    <string name="profile_title">Perfil</string>
+    <string name="password_not_equals">A senha deve ser igual nos dois campos!</string>
+    <string name="empty_fullname">O campo de nome completo é obrigatório!</string>
+    <string name="empty_email">O campo de email é obrigatório!</string>
+    <string name="empty_ddd">O campo de DDD é obrigatório!</string>
+    <string name="empty_phone">O campo de número é obrigatório!</string>
+    <string name="empty_birthDate">O campo de data de nascimento é obrigatório!</string>
+    <string name="empty_password">O campo de senha é obrigatório!</string>
+    <string name="empty_repeat_password">O campo de repetir senha é obrigatório!</string>
+    <string name="registration_error">Erro ao realizar registro, tente novamente mais tarde!</string>
+    <string name="account_data">Dados da conta</string>
+    <string name="account_information">Informações da conta</string>
+    <string name="account_creation_data">Data de criação:</string>
+    <string name="account_orders">Pedidos realizados:</string>
+    <string name="account_attendance_requested">Atendimentos solicitados:</string>
+    <string name="account_checked">Conta verificada:</string>
+    <string name="save">SALVAR</string>
 
 
     <string name="login_fragment_title">Informações de acesso</string>

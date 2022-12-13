@@ -11,6 +11,7 @@
         <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/drawable/radius_green.xml" value="0.1" />
         <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/drawable/radius_white.xml" value="0.222" />
         <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/layout/activity_attendance.xml" value="0.264" />
+        <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/layout/activity_attendance_requested.xml" value="0.264" />
         <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/layout/activity_categories.xml" value="0.264" />
         <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/layout/activity_items.xml" value="0.264" />
         <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/layout/activity_login.xml" value="0.264" />
@@ -18,8 +19,9 @@
         <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/layout/activity_map.xml" value="0.3566569484936832" />
         <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/layout/activity_menu.xml" value="0.264" />
         <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/layout/activity_order_confirmation.xml" value="0.176" />
+        <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/layout/activity_profile.xml" value="0.264" />
         <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/layout/activity_qrcode.xml" value="0.34375" />
-        <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/layout/fragment_item.xml" value="0.2" />
+        <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/layout/fragment_item.xml" value="0.6" />
         <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/layout/fragment_login.xml" value="0.264" />
         <entry key="..\:/DEV/Git/qpedido-android/app/src/main/res/layout/fragment_register.xml" value="0.264" />
       </map>

@@ -26,6 +26,42 @@ public class CategoriesActivity extends AppCompatActivity {
 
     public void onClickStarter(View view) {
         Intent intent = new Intent(this, ItemsActivity.class);
+        intent.putExtra("category", "starter");
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+    }
+
+    public void onClickPlate(View view) {
+        Intent intent = new Intent(this, ItemsActivity.class);
+        intent.putExtra("category", "plate");
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+    }
+
+    public void onClickPizza(View view) {
+        Intent intent = new Intent(this, ItemsActivity.class);
+        intent.putExtra("category", "pizza");
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+    }
+
+    public void onClickSandwich(View view) {
+        Intent intent = new Intent(this, ItemsActivity.class);
+        intent.putExtra("category", "sandwich");
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+    }
+
+    public void onClickDessert(View view) {
+        Intent intent = new Intent(this, ItemsActivity.class);
+        intent.putExtra("category", "dessert");
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+    }
+
+    public void onClickDrink(View view) {
+        Intent intent = new Intent(this, ItemsActivity.class);
+        intent.putExtra("category", "drink");
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }

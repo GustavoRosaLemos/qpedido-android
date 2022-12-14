@@ -1,5 +1,6 @@
 package com.qpedido.android.activity;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.view.View;
 import android.widget.EditText;
@@ -56,5 +57,11 @@ public class OrderConfirmationActivity extends AppCompatActivity {
 
         }
 
+    }
+
+    public void onClickConfirm(View view) {
+        Intent intent = new Intent(this, PaymentActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
     }
 }

@@ -50,4 +50,8 @@ public abstract class Constant {
             "Média",
             "Alta"
     };
+
+    public final static String[] PAYMENT_TYPES = {
+            "Cartão",
+    };
 }

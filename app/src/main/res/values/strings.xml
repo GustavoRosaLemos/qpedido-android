@@ -78,6 +78,21 @@
     <string name="error_add_item_cart">Erro ao adicionar item ao carrinho, tente novamente mais tarde!</string>
     <string name="error_clean_cart">Erro ao limpar carrinho!</string>
     <string name="error_load_cart_resume">Erro ao carregar o carrinho!</string>
+    <string name="payment">Pagamento</string>
+    <string name="do_paymento">Realizar pagamento</string>
+    <string name="payment_type">Tipo de pagamento</string>
+    <string name="payment_button">Realizar pagamento</string>
+    <string name="card_informations">Informações do cartão</string>
+    <string name="card_number">Numero</string>
+    <string name="card_number_hint">XXXX-XXXX-XXXX-XXXX</string>
+    <string name="card_ccv">CCV</string>
+    <string name="card_ccv_hint">XXX</string>
+    <string name="card_date">Data de vencimento</string>
+    <string name="payment_fail">Falha ao realizar pagamento!</string>
+    <string name="order">Pedido</string>
+    <string name="status">Status</string>
+    <string name="status_change_error">Falha ao alterar status do pedido!</string>
+    <string name="error_load_order_items">Falha ao ler itens do pedido!</string>
 
 
     <string name="login_fragment_title">Informações de acesso</string>

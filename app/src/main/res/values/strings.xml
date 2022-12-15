@@ -93,6 +93,9 @@
     <string name="status">Status</string>
     <string name="status_change_error">Falha ao alterar status do pedido!</string>
     <string name="error_load_order_items">Falha ao ler itens do pedido!</string>
+    <string name="my_orders_title">Meus pedidos</string>
+    <string name="order_complete">Concluido</string>
+    <string name="more_information">Mais informações ></string>
 
 
     <string name="login_fragment_title">Informações de acesso</string>

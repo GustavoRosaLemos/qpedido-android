@@ -18,6 +18,9 @@
             android:theme="@style/Theme.Qpedidoandroid"
             tools:targetApi="31">
         <activity
+                android:name=".activity.OrdersActivity"
+                android:exported="false"/>
+        <activity
                 android:name=".activity.OrderInfoActivity"
                 android:exported="false"/>
         <activity

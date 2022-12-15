@@ -28,14 +28,13 @@ public class OrderInfoActivity extends AppCompatActivity {
     }
 
     public void onClickReturn(View view) {
-        Intent intent = new Intent(this, MenuActivity.class);
+        Intent intent = new Intent(this, OrdersActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }
 
     public void loadOrderInfo() {
         try {
-
             SharedPreferences sharedPreferences = getSharedPreferences("session", 0);
             JSONObject jsonObject = new JSONObject(sharedPreferences.getString("user_orders", ""));
             JSONArray jArray = jsonObject.getJSONArray("orders");
@@ -49,7 +48,6 @@ public class OrderInfoActivity extends AppCompatActivity {
                 }
             }
             LinearLayout linearLayout = findViewById(R.id.linearLayoutOrderInfoItems);
-            System.out.println("AQUIII " + orderItems != null && orderItems.length() > 0);
             if(orderItems != null && orderItems.length() > 0) {
                 double totalPrice = 0;
                 for (int i = 0; i < orderItems.length(); i++) {

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragment.RegisterFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/login_fragment_title" android:fontFamily="@font/roboto_bold"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="48dp"
+                app:layout_constraintHorizontal_bias="0.0" android:layout_marginStart="24dp"
+                android:layout_marginEnd="8dp" android:id="@+id/textViewTitleRegister" android:textSize="20sp"/>
+        <ScrollView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewTitleRegister" android:layout_marginTop="16dp"
+        >
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp">
+                <TextView
+                        android:text="@string/fullname_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textViewFullName"
+                        android:labelFor="@id/editTextFullName"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/editTextFullName" android:hint="@string/fullname_hint"
+                        android:minHeight="48dp"/>
+                <TextView
+                        android:text="@string/email_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textViewEmail"
+                        android:labelFor="@id/editTextEmail"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:ems="10"
+                        android:id="@+id/editTextEmail" android:hint="@string/email_hint"
+                        android:minHeight="48dp" android:textColorLink="@color/blue_1"
+                />
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" android:layout_weight="6">
+                        <TextView
+                                android:text="@string/ddd_label"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" android:id="@+id/textViewDDD"
+                                android:labelFor="@id/editTextDDD"/>
+                        <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textPersonName"
+                                android:ems="10"
+                                android:id="@+id/editTextDDD" android:hint="@string/ddd_hint" android:minHeight="48dp"
+                                android:maxLength="2"/>
+                    </LinearLayout>
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" android:id="@+id/textViewPhone"
+                                android:text="@string/phone_label" android:labelFor="@id/editTextPhone"/>
+                        <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textPersonName"
+                                android:ems="10"
+                                android:id="@+id/editTextPhone" android:hint="@string/phone_hint"
+                                android:minHeight="48dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView
+                        android:text="@string/birth_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textViewBirth"
+                        android:labelFor="@id/editTextBirth"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="date"
+                        android:ems="10"
+                        android:id="@+id/editTextBirth" android:hint="@string/birth_hint" android:minHeight="48dp"
+                        android:maxLength="10"
+                />
+                <TextView
+                        android:text="@string/password_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textViewPassword"
+                        android:labelFor="@id/editTextPassword"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:ems="10"
+                        android:id="@+id/editTextPassword" android:hint="@string/password_hint"
+                        android:minHeight="48dp"/>
+                <TextView
+                        android:text="@string/password_repeat_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textViewRepeatPassword"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:ems="10"
+                        android:id="@+id/editTextRepeatPassword" android:hint="@string/password_repeat_hint"
+                        android:minHeight="48dp"/>
+                <Button
+                        android:text="@string/register"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/buttonRegister"
+                        android:backgroundTint="@color/green_1" android:fontFamily="@font/roboto_bold"
+                        android:includeFontPadding="false" android:onClick="onClickRegister" android:height="60dp"/>
+                <ImageView
+                        android:src="@drawable/has_account"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/imageView3"
+                        android:minHeight="30dp" android:layout_marginTop="20dp" android:layout_marginBottom="30dp"/>
+                <Button
+                        android:text="@string/login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/buttonLogin"
+                        android:layout_marginTop="10dp"
+                        android:backgroundTint="@color/blue_1" android:fontFamily="@font/roboto_bold"
+                        android:minWidth="328dp" android:maxWidth="400dp" android:onClick="onClickSwitchLogin"
+                        android:layout_marginBottom="40dp" android:height="60dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
